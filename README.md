@@ -7,7 +7,7 @@ An application for simulating FFT apply on image data.
 Choose input image.<br />
 ![image](https://github.com/ooniwatori/2DFFT-system/blob/main/demo/demo1.png)<br />
 
-Application would show FFT result. Also you can select filter and change parameter.<br />
+Application would show FFT result. Also you can select filter and change parameters.<br />
 ![image](https://github.com/ooniwatori/2DFFT-system/blob/main/demo/demo2.png)<br /><br />
 
 
