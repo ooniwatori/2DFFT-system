@@ -4,7 +4,7 @@ An application for simulating FFT apply on image data.
 # DEMO
 
 
-Choose input signal first. It allows auto generating or input by user. Then select applying system wave.<br />
+Choose input image. Then select applying filter.<br />
 ![image](https://github.com/ooniwatori/2DFFT-system/blob/main/demo/demo1.png)<br />
 
 Application would show result. Also you can change parameter.<br />
