@@ -1,7 +1,7 @@
 package FFT;
-/* 2DFFT, Inver 2DFFT, Shit operation*/
+/* FFT, Inver FFT, Shift operation*/
 public class FFT {
-	/*  2DFFT */
+	/*  FFT */
 	public static Complex[] fft(Complex[] p) {
 		int n = p.length;
 		/* Simple case */
@@ -33,9 +33,9 @@ public class FFT {
 		}
 		return y;
 	}
-	/* Inverse 2DFFT */
+	/* Inverse FFT */
 	public static Complex[] ifft(Complex[] p) {
-		/* Conjugate -> 2DFFT -> Conjugate -> Normalization*/
+		/* Conjugate -> FFT -> Conjugate -> Normalization*/
 		int n = p.length;
 		Complex[] y = new Complex[n];
 		for(int i = 0; i < n; ++i) {
